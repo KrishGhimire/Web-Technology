@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Unbounded:wght@200;400;700&display=swap");
+*{
+    margin: 0;
+    padding: 0; 
+}
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+.container {
+    width: 100%;
+height: auto;
+display: flex;
+}
+
+.content{
+    width: 50%;
+background-color: #0c3b2e;
+
+}
+
+.container .content img{
+height: 600px;
+width: 100%;
+}
+
+.content h1,h5{
+color: white;
+}
+.content h1{
+padding-left: 40px;
+padding-top: 40px;
+padding-bottom: 20px;
+font-size: 50px;
+}
+.content h5{
+padding-left: 40px;
+font-size: 25px;
+font-weight: normal;
+}
+.content h5{
+    padding-left: 40px;
+    padding-top: 55px;
+    font-size: 25px;
+    font-weight: normal;
+}
+button{
+    background-color: #ffba00;
+    margin-left: 40px;
+    margin-top: 50px;
+   
+    padding: 10px;
+    border-radius: 30px;
+}
+button a{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media(max-width:1000px) {
+.container{
+    flex-direction: column;
+}
+.content{
+    width: 100%;
+} 
+}
